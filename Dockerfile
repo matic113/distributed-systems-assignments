@@ -11,5 +11,8 @@ FROM alpine:3.22
 WORKDIR /app
 COPY --from=builder /app/main .
 
+# making a volume for saved_users folder to persist data
+VOLUME /app/saved_users
+
 EXPOSE 8080
 CMD ["./main"]
