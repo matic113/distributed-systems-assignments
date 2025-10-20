@@ -8,13 +8,13 @@ Quick start (build & run locally)
 1. Build the image:
 
 ```powershell
-docker build -t myusername/go-app-section-3 .
+docker build -t go-app-section-3 .
 ```
 
 2. Run the container and mount a local directory for persisted users:
 
 ```powershell
-docker run -d -p 8080:8080 -v ${PWD}/saved_users:/app/saved_users myusername/go-app-section-3
+docker run -d -p 8080:8080 -v ${PWD}/saved_users:/app/saved_users go-app-section-3
 ```
 
 If you prefer not to use Docker you can run the app directly from the `src` folder:
