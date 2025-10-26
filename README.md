@@ -1,0 +1,1 @@
+This repository contains Go projects related to distributed systems. Each folder within the repository holds the source code and documentation for a specific assignment or project.
