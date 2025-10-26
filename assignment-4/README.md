@@ -1,7 +1,7 @@
 # Solution for the section-3 assignment
 
 ## Demo
-<video controls src="/demo.mp4" width="640">Your browser does not support the video tag.</video>
+https://github.com/user-attachments/assets/ec1bcaf7-38d6-4515-8e41-99e7b8172fc1
 
 ## Running the Code
 at the root directory, run the server:
